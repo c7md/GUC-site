@@ -1,5 +1,5 @@
 body {
-    font-family: 'Georgia', serif; /* More elegant font */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern system fonts */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -37,6 +37,15 @@ ul {
     padding-left: 20px;
 }
 
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -56,3 +65,4 @@ footer {
         padding: 15px;
     }
 }
+
