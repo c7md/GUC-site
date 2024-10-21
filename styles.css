@@ -1,32 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif; /* More elegant font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
 }
 
 header {
-    background: #007bff;
-    color: white;
+    background: #1f1f1f; /* Slightly lighter background for header */
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
 
 h1 {
     margin: 0;
+    font-size: 2.5em; /* Larger header */
 }
 
 h2 {
-    color: #333;
+    color: #e0e0e0; /* Lighter color for section headings */
 }
 
 section {
     padding: 20px;
     margin: 10px auto;
-    background: white;
+    background: #2a2a2a; /* Darker section background */
     border-radius: 5px;
     max-width: 600px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
 }
 
 ul {
@@ -37,9 +40,19 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #007bff;
+    background: #1f1f1f;
     color: white;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Adjust heading size on smaller screens */
+    }
+    section {
+        padding: 15px;
+    }
 }
